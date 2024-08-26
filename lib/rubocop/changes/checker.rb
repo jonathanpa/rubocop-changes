@@ -68,7 +68,9 @@ module Rubocop
       end
 
       def ruby_changed_files
-        changed_files.select { |changed_file| changed_file =~ /\.rb$/ }
+        changed_files.select do |changed_file|
+          changed_file.match?(/\.rb$|\.html\.erb$/)
+        end
       end
 
       def ruby_changed_files_from_pwd

@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rubocop::Changes::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.5.0'
-  spec.authors       = ['Ferran Basora']
-  spec.email         = ['fcsonline@gmail.com']
+  spec.authors       = ['Jonathan Pares']
+  spec.email         = ['jonathan.pares@gmail.com']
 
   spec.summary       = 'Rubocop on changed lines from git fork point'
   spec.description   = <<-DESCRIPTION
@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.metadata = {
-    'source_code_uri' => 'https://github.com/fcsonline/rubocop-changes',
-    'bug_tracker_uri' => 'https://github.com/fcsonline/rubocop-changes/issues'
+    'source_code_uri' => 'https://github.com/jonathanpa/rubocop-changes',
+    'bug_tracker_uri' => 'https://github.com/jonathanpa/rubocop-changes/issues'
   }
 
   # Specify which files should be added to the gem when it is released.
